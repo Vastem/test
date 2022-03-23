@@ -52,6 +52,14 @@ public class Jugadores implements Serializable {
     
     String juan = "EldenRing>>>";
 
+    public String getJuan() {
+        return juan;
+    }
+
+    public void setJuan(String juan) {
+        this.juan = juan;
+    }
+
     public Jugadores() {
     }
 
