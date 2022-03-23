@@ -49,6 +49,8 @@ public class Jugadores implements Serializable {
     private String correo;
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "idJugador")
     private Collection<Videojuegos> videojuegosCollection;
+    
+    String juan = "EldenRing>>>";
 
     public Jugadores() {
     }
